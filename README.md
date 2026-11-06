@@ -28,16 +28,16 @@ In most healthcare organizations, patient information is recorded manually or st
 ## 🔄 Project Workflow / Flow of Execution
 
 ```text
-[ Raw Data Sources ] 
-       │
+[ 1. Raw Data Collection ] 
+       │  (5 Domain Excel Files spanning 1,000 synthetic patient records)
        ▼
-[ Data Extraction & SQL Integration ] ──► (Jupyter Notebook Pipeline & Database Schema Insertion)
-       │
+[ 2. Data Extraction & SQL Integration ] 
+       │  (Jupyter Notebook establishes connection with SQL database 'hospital_analytics')
        ▼
-[ Data Cleaning & Preprocessing ] ────► (Handling Missing Values, Data Types & Consistency Checks)
-       │
+[ 3. Data Cleaning & Preprocessing ] 
+       │  (Validation checks: 0 missing values, data type formatting, primary key mapping)
        ▼
-[ Multi-Platform Modeling & Visualization ]
-       ├──► Excel Workbooks & Standalone Cost/Revenue Dashboard
-       ├──► Power BI Interactive Major Dashboard (Slicers & KPI Measures)
-       └──► Python / Jupyter Notebook Automated Visual Suite
+[ 4. Multi-Platform Modeling & Dashboard Visualization ]
+       ├──► Standalone Excel Workbooks & Cost/Revenue Dashboard (Pivot Tables & Slicers)
+       ├──► Power BI Interactive Major Dashboard (Custom measure metrics & live filters)
+       └──► Python / Jupyter Notebook Automated Visual Suite (Pandas & Matplotlib)
