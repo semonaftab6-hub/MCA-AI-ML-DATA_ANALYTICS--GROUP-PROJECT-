@@ -13,22 +13,15 @@
 
 ---
 
-## 📖 About the Project
+## 🛑 Problem Statement
 
-This repository contains an end-to-end data analytics and business intelligence project developed as part of the **Master of Computer Applications (MCA) in Artificial Intelligence & Machine Learning** curriculum at **Invertis University, Bareilly**. 
+In most healthcare organizations, patient information is recorded manually or stored across isolated files and basic spreadsheets. Major issues identified include:
+* **Scattered Data:** Records are fragmented across multiple files, making centralized tracking difficult.
+* **Lack of Analytical Capabilities:** Traditional systems focus solely on record-keeping and registration rather than extracting trends or evaluating hospital performance.
+* **Slow & Manual Reporting:** Compiling reports manually is time-consuming, prone to human error, and delays administrative decision-making.
+* **Limited Visibility:** Management lacks automated insights into disease distribution, ward utilization, doctor performance, financial metrics, and critical patient ratios.
 
-The project transforms raw, synthetic hospital records into actionable visual dashboards across **Microsoft Excel, Power BI, and Python (Jupyter Notebook)**, tracking **1,000 patient records** from October 2025 to October 2026. It features advanced integrations, including a relational SQL database connection for the Python environment and a dedicated, standalone Excel dashboard focused on Cost & Revenue analytics.
-
----
-
-## 📊 Executive Summary & Key Performance Indicators
-
-* 🏥 **Total Patients Tracked:** 1,000 (Primary Key linked via `Patient ID` `P0001` - `P1000`)
-* 💰 **Total Revenue Generated:** ₹39.42 Cr
-* 💵 **Average Treatment Cost:** ₹3.94 Lakh per patient
-* ⏱️ **Average Length of Stay:** 15.1 days
-* 🚨 **Critical Case Load:** 157 patients (15.7%)
-* 🩺 **Domain Coverage:** 10 Diseases, 6 Specialist Doctors, 3 Ward Types, 8 Cities
+**Solution:** This project addresses these gaps by building a multi-platform analytical pipeline using **Python, SQL, Microsoft Excel, and Power BI** to convert static records into dynamic, interactive visual insights.
 
 ---
 
@@ -38,13 +31,13 @@ The project transforms raw, synthetic hospital records into actionable visual da
 [ Raw Data Sources ] 
        │
        ▼
-[ Data Extraction & SQL Integration ] ──► (Jupyter Notebook Pipeline & Database Insertion)
+[ Data Extraction & SQL Integration ] ──► (Jupyter Notebook Pipeline & Database Schema Insertion)
        │
        ▼
 [ Data Cleaning & Preprocessing ] ────► (Handling Missing Values, Data Types & Consistency Checks)
        │
        ▼
 [ Multi-Platform Modeling & Visualization ]
-       ├──► Excel Workbooks & Dedicated Cost/Revenue Dashboard
+       ├──► Excel Workbooks & Standalone Cost/Revenue Dashboard
        ├──► Power BI Interactive Major Dashboard (Slicers & KPI Measures)
        └──► Python / Jupyter Notebook Automated Visual Suite
