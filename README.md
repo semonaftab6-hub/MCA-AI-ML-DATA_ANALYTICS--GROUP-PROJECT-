@@ -21,29 +21,6 @@ The project transforms raw, synthetic hospital records into actionable visual da
 
 ---
 
-## 👥 Project Team & Contributions
-
-* **Team Name:** `03 MCA AI ML`[cite: 1]
-* **Group Leader:** Devang Bhardwaj[cite: 1]
-* **Project Guide:** Mr. Divyank Chauhan *(Assistant Professor, CSED)*[cite: 1]
-* **Head of Department:** Dr. Akash Sanghi[cite: 17]
-
-### 👨‍💻 Contributing Team Members
-| S.No. | Student Name | Role / Contribution |
-| :---: | :--- | :--- |
-| **1** | **Devang Bhardwaj**[cite: 15] | Group Leader & Core Coordination |
-| **2** | Divyansh Pandey[cite: 15] | Data Processing & Modeling |
-| **3** | Ayush Saxena[cite: 15] | Dashboard Design & Analytics |
-| **4** | Nuris Hussain[cite: 15] | Visual Insights & Reporting |
-| **5** | Mayank Pandey[cite: 15] | Pipeline Implementation |
-| **6** | Shivam Gangwar[cite: 15] | Data Cleaning & Slicers |
-| **7** | Kamalpreet Kaur[cite: 15] | Statistical Analysis |
-| **8** | **Semon Aftab**[cite: 15] | Analytics & Repository Documentation |
-| **9** | Gajendra Kumar[cite: 15] | System Architecture |
-| **10**| Aman Yadav[cite: 15] | Testing & Validation |
-
----
-
 ## 📊 Executive Summary & Key Performance Indicators
 
 * 🏥 **Total Patients Tracked:** 1,000 (Primary Key linked via `Patient ID` `P0001` - `P1000`)[cite: 3, 4]
