@@ -41,3 +41,26 @@ In most healthcare organizations, patient information is recorded manually or st
        ├──► Standalone Excel Workbooks & Cost/Revenue Dashboard (Pivot Tables & Slicers)
        ├──► Power BI Interactive Major Dashboard (Custom measure metrics & live filters)
        └──► Python / Jupyter Notebook Automated Visual Suite (Pandas & Matplotlib)
+##MCA-AI-ML-DATA_ANALYTICS--GROUP-PROJECT-/
+│
+├── Excel/                       # 5 Core Domain-Specific Raw Datasets & Team Workbooks
+│   ├── Hospital Operation.xlsx
+│   ├── Patient Analytics.xlsx
+│   ├── Disease Analytics.xlsx
+│   ├── Doctor Performance.xlsx
+│   └── Cost and Revenue.xlsx
+│
+├── jupyter notebooks/           # Python & Jupyter Notebooks for MySQL Ingestion & EDA
+│   ├── mysql.ipynb              # Python script for SQL database connection & table insertion
+│   └── exploratory_analysis.ipynb # Automated visual suites (Pandas, Matplotlib, Plotly)
+│
+├── powerbi/                     # Interactive Power BI Major Dashboards & live slicers
+│   └── Healthcare_Analytics_Dashboard.pbix
+│
+├── report and ppt/              # Complete Project Documentation & Presentation Deck
+│   ├── Project_Report.pdf
+│   └── Presentation_Deck.pptx
+│
+├── Post And Revenue Analysis (1) (1) (1) (1).xlsx   # Independent Custom Financial Module
+│
+└── README.md                    # Comprehensive Project Documentation & Architecture Flow
